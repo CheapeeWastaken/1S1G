@@ -1,0 +1,7 @@
+--put in autoexec folder https://streamable.com/yx474s
+--SCRIPT ONLY SEARCHES FOR CANDY
+--this script made by nukevscity https://www.nukevscity.com/scripts https://www.youtube.com/c/NukeVsCity
+getgenv().NormalTeleportTime = "100" -- when teleport activates by itself ( NOT REQUIRED TO CHANGE )
+getgenv().SellCandyCount = 50 -- IF YOU HAVE MORE CANDY THEN THIS NUMBER THEN IT CONVERTS
+getgenv().HowManyItemsUntilHop = 4 --How many items to collect before it starts hopping ( put between 1 to 5 )
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/hackbloxfruits/main/candyhop"))()
